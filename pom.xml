@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<packaging>jar</packaging>
 
-	<groupId>com.tacocloud</groupId>
+	<groupId>com</groupId>
 	<artifactId>tacocloud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>tacocloud</name>
@@ -47,6 +47,12 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
+    </dependency>
+
+    <dependency>
+    	<groupId>org.projectlombok</groupId>
+    	<artifactId>lombok</artifactId>
+    	<!-- <scope>compileOnly</scope> -->
     </dependency>
 
     <dependency>
